@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Title</title>
+
+</head>
+<body>
+
+<!-- table-responsive 适应小屏幕缩放 -->
+<div class="container">
+    <!-- 修改class名改变table的样式 -->
+    <table class="table table-hover table-bordered table-striped table-condensed">
+
+        <!-- 紧凑型 <table class="table table-condensed">-->
+        <!-- 条纹线 <table class="table table-striped">-->
+        <!-- 边框 <table class="table table-bordered">-->
+        <!-- 鼠标悬停显示 <table class="table table-hover">-->
+        <thead>
+        <!-- row -->
+        <tr>
+            <!-- head column -->
+            <th>title1</th>
+            <th>title2</th>
+            <th>title3</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <!-- row -->
+        <tr>
+            <!-- column -->
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+        </tr>
+
+        <tr>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+        </tr>
+
+        <tr>
+            <td>31</td>
+            <td>32</td>
+            <td>33</td>
+        </tr>
+        </tbody>
+
+    </table>
+
+    <!-- 状态类，行内颜色 -->
+    <table class="table tab-content">
+        <thead>
+        <tr>
+            <th>title1</th>
+            <th>title2</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+
+        <tr class="active">
+            <td>1</td>
+            <td>2</td>
+        </tr>
+
+        <tr>
+            <td class="success">1</td>
+            <td class="warning">2</td>
+        </tr>
+
+        <tr>
+        <td class="danger">3</td>
+        <td class="info">4</td>
+        </tr>
+
+        </tbody>
+    </table>
+
+</div>
+</body>
+</html>
